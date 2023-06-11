@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UTS_AKB_10120905</string>
+    <string name="title_home">Home</string>
+    <string name="title_daily_activity">Daily Activity</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_music">Music</string>
+    <string name="title_profile">Profile</string>
+    <string name="skip">Skip</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="explore">Explore My world</string>
+    <string name="txtcontinue">Continue</string>
+    <string name="hello_there_nyou_probably_wondering">Hello there \nyou probably wondering.</string>
+    <string name="who_is_johndy_panca">Who is Johndy Panca ?</string>
+    <string name="desc">Hey there! I\'m Johndy Panca, a 21 years old computer science student, When I\'m not immersed in coding or studying, you can often find me exploring my culinary passions or playing online games</string>
+    <string name="descimg1">I have a range of hobbies that keep me entertained and fulfilled. I love playing badminton, listening to music, watching movies, and playing online games. These activities provide me with physical activity, emotional connection, creative inspiration, and immersive entertainment. Each hobby offers a unique experience that brings joy to my life.</string>
+    <string name="descimg2">\"I have a diverse range of interests that keep me engaged and curious. I\'m passionate about esports, jazz music, and the exciting field of artificial intelligence (AI). Exploring the competitive world of esports, immersing myself in the soulful melodies of jazz, and delving into the possibilities of AI technology are all sources of fascination and enjoyment for me</string>
+    <string name="descimg3">I absolutely adore rendang, tofu, and burgers. The rich flavors of rendang, the versatility of tofu, and the satisfying indulgence of burgers make them my top culinary favorites.</string>
+    <string name="descimg4">My taste buds rejoice in three beloved beverages: hot chocolate, matcha, and beer. The rich and comforting warmth of hot chocolate, the vibrant and invigorating taste of matcha, and the delightful flavors of beer make each sip a pleasure.</string>
+    <string name="descimg5">My ultimate aspiration is to become a successful DevOps and cloud engineer. I strive to master these fields, leverage automation and collaboration, and make a positive impact through cutting-edge projects. Continuous learning and a commitment to innovation drive me toward achieving these dreams.</string>
+    <string name="desc2">I think that covers everything you should know about me. You can also reach out to me on social media platforms. You can find me on Whatsapp, Email, and Instagram.</string>
+</resources>
