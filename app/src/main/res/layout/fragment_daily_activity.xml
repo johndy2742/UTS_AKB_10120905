@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!-- IF10K Johndy Panca 10120905-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,9 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_23dp"
         android:layout_marginTop="30dp"
-        android:text="Friend List"
+        android:text="@string/friend_list"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="@dimen/_24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,35 +38,35 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_23dp"
         android:layout_marginTop="@dimen/_80dp"
-        android:text="Daily Activities"
+        android:text="@string/daily_activities"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="@dimen/_24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/rvfriend" />
 
 
-        <androidx.core.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_0dp"
+        android:layout_marginTop="@dimen/_33dp"
+        android:layout_marginBottom="@dimen/_70dp"
+        android:fillViewport="true"
+        android:paddingStart="@dimen/_30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvdailyactivities">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvdailyactivities"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginTop="33dp"
-            android:fillViewport="true"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvdailyactivities"
-            android:layout_marginBottom="70dp"
-            android:paddingStart="30dp">
-
-                <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/rvdailyactivities"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 
-        </androidx.core.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

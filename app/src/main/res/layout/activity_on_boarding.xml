@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!-- IF10K Johndy Panca 10120905-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -7,8 +7,8 @@
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/vpOnBoarding"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="@dimen/_0dp"
         app:layout_constraintBottom_toTopOf="@id/btnNext"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -16,53 +16,51 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tlOnBoarding"
-        android:background="@color/woodsmoke"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:background="@color/woodsmoke"
         app:layout_constraintBottom_toTopOf="@id/btnNext"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintStart_toEndOf="parent"
         app:tabBackground="@drawable/tab_pager_selector"
         app:tabGravity="center"
-        app:tabIndicatorHeight="0dp"
-        />
+        app:tabIndicatorHeight="0dp" />
 
 
     <ImageButton
         android:id="@+id/btnPrevious"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="24dp"
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:background="@drawable/rounded_shape"
         android:backgroundTint="@color/emperor"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="20dp"
         android:src="@drawable/arrowback"
-        android:background="@drawable/rounded_shape"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnNext"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginStart="@dimen/_12dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        android:layout_marginBottom="@dimen/_20dp"
         android:backgroundTint="@color/medium_purple"
         android:gravity="center"
-        android:text="Continue"
+        android:text="@string/continuebtn"
         android:textColor="#FFFFFF"
-        android:textSize="16sp"
-        android:layout_marginStart="12dp"
-        app:cornerRadius="500dp"
+        android:textSize="@dimen/_16sp"
+        app:cornerRadius="@dimen/_500dp"
         app:icon="@drawable/arrowforward"
         app:iconGravity="textEnd"
-        app:iconPadding="14dp"
+        app:iconPadding="@dimen/_14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnPrevious" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,4 @@
-<resources>
+<resources><!-- IF10K Johndy Panca 10120905-->
     <string name="app_name">UTS_AKB_10120905</string>
     <string name="title_home">Home</string>
     <string name="title_daily_activity">Daily Activity</string>
@@ -20,4 +20,24 @@
     <string name="descimg4">My taste buds rejoice in three beloved beverages: hot chocolate, matcha, and beer. The rich and comforting warmth of hot chocolate, the vibrant and invigorating taste of matcha, and the delightful flavors of beer make each sip a pleasure.</string>
     <string name="descimg5">My ultimate aspiration is to become a successful DevOps and cloud engineer. I strive to master these fields, leverage automation and collaboration, and make a positive impact through cutting-edge projects. Continuous learning and a commitment to innovation drive me toward achieving these dreams.</string>
     <string name="desc2">I think that covers everything you should know about me. You can also reach out to me on social media platforms. You can find me on Whatsapp, Email, and Instagram.</string>
+    <string name="continuebtn">continue</string>
+    <string name="hi_n_welcome_n_to_my_self_app">Hi,\n Welcome \n to my Self app.</string>
+    <string name="by_n_johndy_panca">By \n Johndy Panca</string>
+    <string name="favorite_drink">Favorite Drink</string>
+    <string name="favorite_food">Favorite Food</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="interest">Interest</string>
+    <string name="friend_list">Friend List</string>
+    <string name="daily_activities">Daily Activities</string>
+    <string name="gallery">Gallery</string>
+    <string name="hello_i_m">Hello I\'m</string>
+    <string name="johndy_panca">Johndy Panca</string>
+    <string name="hobbies_and_interest">Hobbies And Interest</string>
+    <string name="hobbies2">Hobbies</string>
+    <string name="uts_akb_10120905">UTS_AKB_10120905</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="the_app_will_tells_you_all_about_me">The app will tells you all about me</string>
+    <string name="hobbies_intrest_friends_etc_n_you_name_it_i_got_it">Hobbies, Intrest, Friends, Etc.\n You name it i got it.</string>
+    <string name="video">Video</string>
+    <string name="dreams">Dreams</string>
 </resources>

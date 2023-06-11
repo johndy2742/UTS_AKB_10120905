@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!-- IF10K Johndy Panca 10120905-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,38 +13,38 @@
 
 
         <ImageView
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
             android:src="@drawable/bannergallery"
-            android:adjustViewBounds="true"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             android:id="@+id/gallerytitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_23dp"
-            android:layout_marginTop="23dp"
-            android:text="Gallery"
+            android:layout_marginTop="@dimen/_23dp"
+            android:text="@string/gallery"
             android:textColor="@color/white"
-            android:textSize="30sp"
+            android:textSize="@dimen/_30sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
 
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvgallery"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginTop="@dimen/_50dp"
+            android:layout_marginBottom="@dimen/_50dp"
             app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/gallerytitle"
             app:layout_constraintTop_toBottomOf="@id/gallerytitle"
-            app:spanCount="3"/>
+            app:spanCount="3" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
