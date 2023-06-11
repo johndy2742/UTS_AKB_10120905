@@ -32,16 +32,30 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
-
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvvideo"
+        <FrameLayout
+            android:id="@+id/frameLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            android:orientation="horizontal"
-            app:layout_constraintStart_toStartOf="@id/videotitle"
-            app:layout_constraintTop_toBottomOf="@id/videotitle"/>
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/videotitle"
+            android:layout_marginTop="25dp">
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="273dp"
+                android:layout_height="130dp" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/play_button"
+                android:layout_width="35dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="@android:color/transparent"
+                android:src="@drawable/videoplayic" />
+
+        </FrameLayout>
+
 
 
 
@@ -132,7 +146,7 @@
             app:layout_constraintStart_toStartOf="@id/albumcover"
             app:layout_constraintTop_toBottomOf="@id/seperator"
             android:layout_marginBottom="50dp"/>
-        
+
 
 
 
